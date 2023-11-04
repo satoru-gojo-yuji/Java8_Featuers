@@ -9,6 +9,10 @@
 ### New Features in Java-8
 - **Lambda Expression**
 - **Functional Interfaces**
+  - Consumer 
+  - Supplier
+  - Predicate
+  - Function
 - **Stream API**
 - **Interface changes (dafult & Static method)**
 - **Date and Time API**
