@@ -3,6 +3,9 @@
 - To enable functional programming 
 - To write more readabl and concise code 
 
+- to introduce lots of new apis
+- changed coding style with new apis
+
 ### New Features in Java-8
 - **Lambda Expression**
 - **Functional Interfaces**
