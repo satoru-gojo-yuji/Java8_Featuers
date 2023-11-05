@@ -66,8 +66,7 @@ sout("hello");}
 EX: 2 
 public viod m3(int a , int b)
 {
-  sout(a+b);
-  
+  sout(a+b); 
 }
 
 (a, b)->sout(a+b);
