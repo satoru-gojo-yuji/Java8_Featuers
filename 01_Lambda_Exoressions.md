@@ -105,12 +105,4 @@ public interface Myinterface{
      public abstract void m3();
 }
 
-
-
-
-
-
-
-
-
-
+````````
