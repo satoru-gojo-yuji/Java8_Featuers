@@ -22,3 +22,6 @@
 - **Method References**
 - **Construtor References**
 - **Collection Framework changes**
+
+
+**Java is an Object programming language. By introducing Lambdas in java it is supporting Functional programming also.**
