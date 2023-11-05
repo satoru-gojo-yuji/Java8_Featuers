@@ -25,3 +25,9 @@
 
 
 **Java is an Object programming language. By introducing Lambdas in java it is supporting Functional programming also.**
+
+
+|OOP|Functional Programming|
+|***********|***********|
+|IN the Object Oriented Programming classes and object is the main entities.|
+
