@@ -78,6 +78,8 @@ public viod m3(int a , int b)
 - To write functional programming in java
 - To write more readable, maintable and concise code
 
+**To call Lambda Expression Functional Interface is required**
+
 
 
 
