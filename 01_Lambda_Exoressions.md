@@ -129,4 +129,31 @@ public interface child extend Parent
 }
 
 (In the above scenario, child interface overriding the parent interface abstract method hence child is having only one abstract method.)
+
+
+Ex: 5 (This is Invalid functional intercase)
+@FunctionalInterface
+public interface Parent{
+     public void m2();    // by default abstact will added
+}
+@FunctinalInterface
+public interface child extend Parent
+{
+  public void m1();
+}
+(In the above scenario, chid interface having 2 interface hence it is not functional interface)
+
+Ex: 6 (This is valid functional intercase)
+@FunctionalInterface
+public interface Parent{
+     public void m2();    // by default abstact will added
+}
+
+public interface child extend Parent
+{
+  public void m1();
+}
+(In the above scenario, chid interface can contain any no. of abstract method because it is not having  @FunctionalInterface annotation)
+
+
 ````````
