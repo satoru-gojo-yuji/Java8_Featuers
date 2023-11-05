@@ -85,6 +85,8 @@ public viod m3(int a , int b)
 
 - **If an interface contain only one abstract method then it is called functional interface.**
 - **Functional interface is used to invoke the Lambda Expression (to call the Lambda expression to use funcational interface).**
+- **Functional interface can contain default and static methods also.**
+- **Functioan interface rule is applicabe only for abstract methods. It should contain only one abstract method and it can contain any no. of defaul and static methods.**
 
 
 
