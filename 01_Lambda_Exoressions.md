@@ -105,4 +105,16 @@ public interface Myinterface{
      public abstract void m3();
 }
 
+Ex: 3 (This is valid functional intercase)
+@FunctionalInterface
+public interface Parent{
+     public void m2();    // by default abstact will added
+}
+@FunctinalInterface
+public interface child extend Parent
+{
+
+}
+(In the abov scenario, child interface doesn't have any abstract methods. child having access for Parent class abstract method)
+
 ````````
