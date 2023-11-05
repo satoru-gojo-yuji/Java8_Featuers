@@ -33,3 +33,9 @@
 |If you want to create the function in OOP language, that function should be created inside the class.| We can assign function to refference variable.|
 |                    | One function can be passed as a prameter to an another function|
 
+
+### What is Lambda
+A Lambda Expression is just an anonymous function 
+- No Name 
+- No Returen type 
+- No Access modifiers  
