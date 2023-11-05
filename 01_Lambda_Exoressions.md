@@ -39,3 +39,13 @@ A Lambda Expression is just an anonymous function
 - No Name 
 - No Returen type 
 - No Access modifiers  
+
+``````java
+public void m1()
+{
+  sout("Hello");
+}
+
+Conver to Lambda Expression
+
+()->sout("Hello")
