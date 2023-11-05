@@ -90,6 +90,23 @@ public viod m3(int a , int b)
 
 - **To represent our interface as functional interface we will use @FunctionalInterface annotation**
 
+``````java
+Ex: 1 (This is valid functional intercase)
+@FunctionalInterface
+public interface Myinterface{
+     public void m2();    // by default abstact will added
+}
+
+
+Ex: 2 (This is invalid because 2 abstract method is there)
+@FunctionalInterface
+public interface Myinterface{
+     public void m2();    // by default abstact will added
+     public abstract void m3();
+}
+
+
+
 
 
 
