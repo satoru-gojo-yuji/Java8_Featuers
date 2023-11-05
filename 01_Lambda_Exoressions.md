@@ -168,3 +168,34 @@ public interface Parent{
 
 
 
+#### How to invoke Lambda using Functional Interface 
+``````Java
+// Without using Lambda
+public interface myinterface{
+  public void m1();
+}
+class child Myapp implements myinterface{
+  public void m1()
+  {
+    sout("Hello");
+  }
+  public static void main(String args[])
+
+  myinterface m = new Myapp();
+  m.m1
+}
+
+// With Lambda Expression
+public interface myinterface{
+  public void m1();
+}
+class child Myapp {
+ public static void main(String args[])
+ {
+     myinterface i= ()->sout("Hello");
+     i.m1
+ }
+}
+
+
+
