@@ -143,7 +143,7 @@ public interface child extend Parent
 }
 In the above scenario, chid interface having 2 interface hence it is not functional interface
 
-Ex: 6 (This is valid functional intercase)
+Ex: 6 (This is valid functional interface)
 @FunctionalInterface
 public interface Parent{
      public void m2();    // by default abstact will added
