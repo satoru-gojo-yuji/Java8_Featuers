@@ -81,5 +81,11 @@ public viod m3(int a , int b)
 
 
 
+## Lunctional Interface
+
+**Functional interface is used to invoke the Lambda Expression (to call the Lambda expression to use funcational interface)**
+
+
+
 
 
