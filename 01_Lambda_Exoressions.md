@@ -48,12 +48,26 @@ public void m1()
 
 Conver to Lambda Expression
 
+Curly braces is not required if you are using only sigle line. for multiple line curly bracess is required
+
 ()->sout("Hello")
+
+public viod m2()
+{
+  sout("hi");
+  sout("hellow");
+}
+
+
+()->{sout("hi");
+sout("hello");})
 ```````````
 
 ### Why to use Lambda Expression 
 - To write functional programming in java
 - To write more readable, maintable and concise code
+
+
 
 
 
