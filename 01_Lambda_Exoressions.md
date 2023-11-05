@@ -114,7 +114,8 @@ public interface Parent{
 public interface child extend Parent
 {
 }
-In the abov scenario, child interface doesn't have any abstract methods. child having access for Parent class abstract method hence child is also functional interface
+
+In the abov scenario, child interface doesn't have any abstract methods. child having access for Parent class abstract method hence child is also functional interface.
 
 Ex: 4 (This is valid functional intercase)
 @FunctionalInterface
@@ -154,7 +155,6 @@ public interface child extend Parent
 }
 In the above scenario, chid interface can contain any no. of abstract method because it is not having  @FunctionalInterface annotation
 
-
 Ex: 7 (This is valid functional intercase)
 
 public interface Parent{
@@ -164,5 +164,8 @@ public interface Parent{
 - In the above scenario, Parent is functional interface 
 - Writing @FunctionalInterface annotation is optional 
 - If we writing the @FunctionalInterface, Java compiler will verifying that is valid functional interface or not
+
 ````````
+
+
 
