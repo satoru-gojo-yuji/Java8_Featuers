@@ -60,7 +60,18 @@ public viod m2()
 
 
 ()->{sout("hi");
-sout("hello");})
+sout("hello");}
+
+
+EX: 2 
+public viod m3(int a , int b)
+{
+  sout(a+b);
+  
+}
+
+(a, b)->sout(a+b);
+
 ```````````
 
 ### Why to use Lambda Expression 
