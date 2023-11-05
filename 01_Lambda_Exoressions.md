@@ -113,7 +113,6 @@ public interface Parent{
 @FunctinalInterface
 public interface child extend Parent
 {
-
 }
 In the abov scenario, child interface doesn't have any abstract methods. child having access for Parent class abstract method hence child is also functional interface
 
