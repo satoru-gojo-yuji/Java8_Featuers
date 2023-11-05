@@ -28,6 +28,8 @@
 
 
 |OOP|Functional Programming|
-|***********|***********|
-|IN the Object Oriented Programming classes and object is the main entities.|
+|------------|----------------|
+|In the Object Oriented Programming classes and object is the main entities.|In Functinal programming, function can exist outside the scope of an object.
+|If you want to create the function in OOP language, that function should be created inside the class.| We can assign function to refference variable.|
+|                    | One function can be passed as a prameter to an another function|
 
