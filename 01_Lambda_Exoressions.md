@@ -88,6 +88,11 @@ public viod m3(int a , int b)
 - **Functional interface can contain default and static methods also.**
 - **Functioan interface rule is applicabe only for abstract methods. It should contain only one abstract method and it can contain any no. of defaul and static methods.**
 
+- **To represent our interface as functional interface we will use @FunctionalInterface annotation**
+
+
+
+
 
 
 
