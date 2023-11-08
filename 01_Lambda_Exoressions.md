@@ -81,7 +81,7 @@ public viod m3(int a , int b)
 
 
 
-## Lunctional Interface
+## Functional Interface
 
 - **If an interface contain only one abstract method then it is called functional interface.**
 - **Functional interface is used to invoke the Lambda Expression (to call the Lambda expression to use funcational interface).**
@@ -113,7 +113,9 @@ public interface Parent{
 @FunctinalInterface
 public interface child extend Parent
 {
+
 }
+
 In the abov scenario, child interface doesn't have any abstract methods. child having access for Parent class abstract method hence child is also functional interface.
 
 Ex: 4 (This is valid functional intercase)
