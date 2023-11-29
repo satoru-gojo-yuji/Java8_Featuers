@@ -76,6 +76,7 @@ public viod m3(int a , int b)
 ### Why to use Lambda Expression 
 - To write functional programming in java
 - To write more readable, maintable and concise code
+- The Lambda expression is used to provide the implementation of an interface which has functional interface. It saves a lot of code.
 
 **To call Lambda Expression Functional Interface is required**
 
