@@ -35,7 +35,7 @@
 
 
 ### What is Lambda
-A Lambda Expression is just an anonymous function 
+A Lambda Expression is just an anonymous function which does not contains.
 - No Name 
 - No Returen type 
 - No Access modifiers  
@@ -170,7 +170,9 @@ public interface Parent{
 
 
 
-#### How to invoke Lambda using Functional Interface 
+## How to invoke Lambda using Functional Interface 
+
+
 ``````Java
 // Without using Lambda
 public interface myinterface{
