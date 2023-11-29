@@ -105,3 +105,5 @@ class child Myapp implements myinterface{
   myinterface m = new Myapp();
   m.m1
 }
+```````
+### In Java there are 3 more interfaces is that we called as Functional interface
