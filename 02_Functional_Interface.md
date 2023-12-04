@@ -107,3 +107,4 @@ class child Myapp implements myinterface{
 }
 ```````
 ### In Java there are 3 more interfaces is that we called as Functional interface
+
