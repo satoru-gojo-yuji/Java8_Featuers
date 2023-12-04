@@ -105,6 +105,18 @@ class child Myapp implements myinterface{
   myinterface m = new Myapp();
   m.m1
 }
+
+// With Lambda Expression
+public interface myinterface{
+  public void m1();
+}
+class child Myapp {
+ public static void main(String args[])
+ {
+     myinterface i= ()->sout("Hello");
+     i.m1
+ }
+}
 ```````
 ### In Java there are 3 more interfaces is that we called as Functional interface
 
