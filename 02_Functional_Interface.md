@@ -120,3 +120,90 @@ class child Myapp {
 ```````
 ### In Java there are 3 more interfaces is that we called as Functional interface
 
+- Runnable
+- callable 
+- Actionlistener 
+
+
+### Runnable interface
+contains only one abstract method hence it is called functional interface.
+
+``````java
+// Normal program using runnable interface
+
+public class Demo implements Runnable {
+
+
+    @Override
+    public void run() {
+        for(int i=0; i<=10 ; i++)
+        {
+            System.out.println(i);
+        }
+    }
+
+    public static void main(String args[])
+    {
+        Demo d =new Demo();
+        Thread t = new Thread(d);
+        t.start();
+    }
+}
+
+// Second approach 
+public class Demo2 {
+
+    public static void mian(String args)
+    {
+        new Runnable(){
+
+            @Override
+            public void run() {
+                System.out.println("Hello");
+            }
+        };
+    }
+}
+
+// Thired approach using Lambda expression
+public class Demo3 {
+    public static void main(String args[])
+    {
+        Runnable r =()-> System.out.println("hello");
+        r.run();
+    }
+}
+``````
+### Comparator Interface
+
+
+``````java 
+public class Demo1 {
+
+    public static void main(String args[]) {
+        ArrayList r = new ArrayList();
+        r.add(23);
+        r.add(45);
+        r.add(78);
+        r.add(89);
+        r.add(90);
+
+        Collections.sort(r, new Rem());
+        System.out.println(r);
+    }
+}
+   class Rem implements Comparator<Integer>
+   {
+  
+       @Override
+       public int compare(Integer o1, Integer o2) {
+          if(o1 > o2)   // descending order 
+           return -1;
+          else if (o1 < o2)
+              return 1 ;
+          else
+              return 0 ;
+       }
+   }
+```````
+
