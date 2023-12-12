@@ -262,7 +262,7 @@ After Sorting:
 
 ### Differecne B/W Comparator and Comparable 
 
-|Comparator | Coparable |
+|Comparator | Comparable |
 |----------|------------|
 | Compare() method we are using | CompareTo() method we are using |
 |In Comparator we are using more then one sotring | In Comparable we are using only one shorting|
