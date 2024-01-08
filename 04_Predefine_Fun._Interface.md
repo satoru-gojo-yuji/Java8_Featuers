@@ -9,8 +9,10 @@
 
 ### Predicate 
 
+- Predicate is a predefind functional interface.
 - It is used to perform some conditional check and returen true or false.
 - Predicate having the test() method which is used to invok the lambda expression.
+- If we have a lambda which check reterun ture or false then we can invoke that lambda usign predicate functional interface.
 
 **Ex.  Check weather given no. greater then 20 or not.**
 
@@ -124,6 +126,79 @@ public class PPmain {
     }
 }
 ```````
+
+### Pedicate Joining 
+
+- To combine multiple predicate we will use Predicate Joining.
+- We have below methods in Predicate
+     1 test() = it is a abstract method
+     2 negate() = if you want to perform revers operation then we can use negate
+     3 or() = If you want to satisfied only one condition then we can use or 
+     4 and() = If you want to satisfied both condition then we can use and 
+
+*Requirement : Write a program to identify who is eligible for marriage 
+
+Condition  :  Person age should be >=20 and <=64  
+
+
+```````java
+public class PPmain {
+
+    public static void main(String args[])
+    {
+        PPerson p1 = new PPerson("Raja", 22) ;
+        PPerson p2 = new PPerson("Ra", 18) ;
+        PPerson p3 = new PPerson("ja", 20) ;
+        PPerson p4 = new PPerson("aja", 56) ;
+        PPerson p5 = new PPerson("aaja", 58) ;
+
+
+       List<PPerson>  t = Arrays.asList(p1,p2,p3,p4,p5);    // Convert object into arrylist
+
+        Predicate<PPerson> persona1 = (P) -> P.getage() >= 21 ;
+         Predicate<PPerson> persona2 = (P) -> P.getage() <>= 64 ;
+
+        for(PPerson p : t)
+        {
+            Predicate<PPerson> persona3 = persona1.and(persona2);
+             boolean s = persona.test(p);
+             if(s)
+                 System.out.println(p.getName());
+        }
+
+
+    }
+}
+
+EX : Find the even no..
+public class Evenno {
+
+    public static void main(String[] args)
+    {
+        Predicate<Integer> r = p-> p % 2 == 0 ;
+        System.out.println(r.test(54));
+
+    }
+     Predicate<Integer> e =i-> i % 2 == 0 ;
+         boolean status = isEven(e,10);
+        System.out.println(status);
+
+
+    }
+
+
+    public static boolean isEven(Predicate<Integer> p , Integer i)
+    {
+        return p.test(i);
+    }
+
+     public static boolean isEven(Predicate<Integer> p , Integer i)
+    {
+        return p.negate().test(i);
+    }
+}
+
+
 
 
 
