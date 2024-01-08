@@ -136,6 +136,8 @@ public class PPmain {
      3 or() = If you want to satisfied only one condition then we can use or 
      4 and() = If you want to satisfied both condition then we can use and 
 
+Only test method is abstract remaing all are default methods 
+
 *Requirement : Write a program to identify who is eligible for marriage 
 
 Condition  :  Person age should be >=20 and <=64  
