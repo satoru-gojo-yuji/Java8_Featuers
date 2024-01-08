@@ -57,6 +57,74 @@ public class PredicateDemo2 {
         }
     }
 }
-``````
+
+
+EX 3
+
+public class PPerson {
+
+    String name ;
+    int age ;
+
+    PPerson(String name , int age)
+    {
+        this.age = age;
+        this.name = name ;
+    }
+
+    public String getName()
+    {
+        return  name;
+    }
+
+    public void setName(String name)
+    {
+        this.name = name;
+    }
+
+    public Integer getage()
+    {
+        return  age ;
+    }
+
+    public  void setAge(int age)
+    {
+        this.age = age ;
+    }
+
+    @Override
+    public String toString() {
+        return  "name"+name+ "age" +age+  " ";
+    }
+}
+
+public class PPmain {
+
+    public static void main(String args[])
+    {
+        PPerson p1 = new PPerson("Raja", 5) ;
+        PPerson p2 = new PPerson("Ra", 18) ;
+        PPerson p3 = new PPerson("ja", 20) ;
+        PPerson p4 = new PPerson("aja", 56) ;
+        PPerson p5 = new PPerson("aaja", 58) ;
+
+
+       List<PPerson>  t = Arrays.asList(p1,p2,p3,p4,p5);    // Convert object into arrylist
+
+        Predicate<PPerson> persona = (P) -> P.getage() >= 18 ;
+
+        for(PPerson p : t)
+        {
+             boolean s = persona.test(p);
+             if(s)
+                 System.out.println(p.getName());
+        }
+
+
+    }
+}
+```````
+
+
 
 
