@@ -4,6 +4,9 @@
 - It is predifined functional interface.
 - It contains only one abstract method i.e get().
 
+
+**Note : As supplier does not take any arguments we do not have any Bisupplier consept.**
+
 ``````java
 EX: 
 
@@ -61,3 +64,4 @@ EX:
     };
         r1.accept(19,20);
     }
+``````````
