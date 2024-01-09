@@ -33,7 +33,7 @@ public boolean test(int number)
 // With lambda 
 (number) -> number > 20 ;
 
-// With Pradicate 
+// With Predicate 
 Predicate<Integer> predicate = (number) -> number > 20 ; 
 sout(predicate.test(29));
 ```````
@@ -199,6 +199,23 @@ public class Evenno {
         return p.negate().test(i);
     }
 }
+```````
+###  BiPredicate 
+
+- If you want to supply two parameters as input for lambda and return the result then we can use Bipredicate for this. 
+- BiPredicate is functiona interface which contains a abstract method test().
+- BiPredicate takes two parameters and returns boolean value.
+
+
+``````java
+ public static void main(String[] args)
+    {
+        BiPredicate<Integer, Integer> t =(i , y) -> i+y >= 100 ;
+        System.out.println(t.test(50 ,60));
+    }
+
+
+
 
 
 
