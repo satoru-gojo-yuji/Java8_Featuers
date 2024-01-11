@@ -43,4 +43,13 @@ public static void main(String[] args) {
   }
 ```````````
 
+EX: Taking loginform object as a input and returning String as output 
+ 
+ public string Login(Loginform input)
+ {
+    // check login credentials with db
+    return status ; 
+ }
+ 
+
 
