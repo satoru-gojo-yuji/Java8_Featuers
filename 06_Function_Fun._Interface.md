@@ -50,6 +50,13 @@ EX: Taking loginform object as a input and returning String as output
     // check login credentials with db
     return status ; 
  }
- 
+
+
+ | Predicate | Supplier | Cunsummer | Function |
+ |-----------|----------|-----------|------------|
+ |It takes single input| It will not take input| It takes single input|It takes single input|
+ | It return boolean value| It return object(T)| It will not return anything| It return object(R)|
+ | Boolean test()| T get()| void accept(input)| R apply(T t)|
+ |For two input we have Bipredicate| No concept of Bisupplier|For two input we have BiConsumer|For two input we have BiFunction|
 
 
