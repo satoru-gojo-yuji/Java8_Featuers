@@ -44,7 +44,6 @@ public class Sansore implements Vehicle{
 
 ### **If we have to overriden methdo then we can go for defult method**
 
-### **If we don't have to overriden then we can go for static method** 
-We can not override the static method. 
+### **If we don't have to overriden then we can go for static method We can not override the static method**. 
 
 
