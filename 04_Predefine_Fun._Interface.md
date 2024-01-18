@@ -11,7 +11,7 @@
 
 - Predicate is a predefind functional interface.
 - It is used to perform some conditional check and returen true or false.
-- Predicate having the test() method which is used to invok the lambda expression.
+- Predicate having the **test()** method which is used to invok the lambda expression.
 - If we have a lambda which check reterun ture or false then we can invoke that lambda usign predicate functional interface.
 
 **Ex.  Check weather given no. greater then 20 or not.**
