@@ -46,8 +46,12 @@ public class Demo1 {
               return 0 ;
 
       // Using Lambda 
-
-      Collection.sor(r , (01 , 02)-> 01>02)
+// Ascending 
+      Collection.sor(r , (01 , 02)-> 01-02) // Negative hai to swipe nahi krenge 
+      
+      // Descending 
+      // positive hai to swipe 
+       Collection.sor(r , (01 , 02)-> 02-01)
 
        }
    }

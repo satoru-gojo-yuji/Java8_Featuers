@@ -58,7 +58,25 @@ interface Myinterface
 }
 ````````
 - By using mehtod reference we can use re use existing logic instread of writting lambda.
-- 
+
+- Method references are alternative of lambda.
+
+```````java 
+
+public class sample 
+ {
+   main method 
+    
+  SampleInterface si = ()->new Sample();
+   SampleInterface si = Sample::new;
+   sout(si.hashcode());
+ }
+
+ interface SampleInterface
+ {
+  smple get();
+ }
+ 
 
 
 
