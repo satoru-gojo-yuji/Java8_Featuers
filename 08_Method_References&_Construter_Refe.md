@@ -33,6 +33,35 @@ Integer t = r.apply(perobj);
 
 ````````
 
+```````java
+- Method reference example 
+
+class Test
+{
+
+    public static void m2()
+    {
+        sout("this is m2 method");
+    }
+
+    public static void main(String[] args)
+    {
+       // without method reference 
+  //Myinterface r =()-> sout(" hello m1 method");
+    Myinterface m1 = Test::m2;
+  m1.m1();
+    }
+}
+interface Myinterface
+{
+    public void m1();
+}
+````````
+- By using mehtod reference we can use re use existing logic instread of writting lambda.
+- 
+
+
+
 
 
 
