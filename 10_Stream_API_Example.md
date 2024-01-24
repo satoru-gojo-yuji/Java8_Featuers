@@ -85,6 +85,9 @@ public class FilteringMappingDemo {
 		stream.filter(name -> name.startsWith("A"))
 			  .map(name -> name +"::"+name.length())
 			  .forEach(System.out::println);
+
+    // Intstream t =stream.mapToInt(name-> name.length() );
+        t.forEach(System.out::printIn);
 	}
 }
 --------------------------------------------------------------------------------
