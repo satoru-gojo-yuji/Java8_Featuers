@@ -12,6 +12,7 @@ IMP points for Stream:
 - Stream is used to perform bunch of operations on the data.
 - Stream will take the data from a collection or array.
 - Stream will perform opetation on the data but it will not change the original data struture. 
+- We can do the parallel processing also. 
 
 Stream Creation
 = 
@@ -47,7 +48,7 @@ By using stream we can perform below operations on the data
 Intermediate ope. methods will not produce any results. they usally accept functional interface as parameters and always returns new stream. some examples for intermediate ope. are filter() and map() methods.
 
 Terminal ope. method will produce some results 
-count() , collect() etc.
+count() , collect() etc. 
 
 Stream with filtering 
 
@@ -135,7 +136,7 @@ public class NamesMapping {
 
 	}
 }
-
+ 
  
 
 
