@@ -32,6 +32,8 @@ EX: 2
         System.out.println(r.get());
     }
 
+````````
+
 ## Consumer
 - It is a predifined functional interface
 - It contain only one abstract method accept()
@@ -49,6 +51,7 @@ EX:
         Consumer<Integer> s1 =(name1) -> System.out.println(name1*name1);
         s1.accept(20);
     }
+````````
 
 ### Biconsumer 
  - If you want to supply two inputs for lambda then we use Biconsumer.
