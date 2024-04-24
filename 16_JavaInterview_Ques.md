@@ -217,7 +217,7 @@ HTML Css  JS Anguler to craret the login pager how to versify the user enter dat
 Vector and arry list logicla questuon. 
 treemap and hashmap diff. 
 finaly why we use ralred project /  data base close** 
-
+what is indexing in SQL 
 
 
 
