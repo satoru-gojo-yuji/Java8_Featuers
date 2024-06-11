@@ -77,7 +77,8 @@ public class sample
   smple get();
  }
  
-
+```````
+https://javaconceptoftheday.com/java-8-method-references/
 
 
 
