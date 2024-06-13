@@ -21,4 +21,6 @@ public class FlatMapDemo {
 	}
 }
 ``````````
+https://javaconceptoftheday.com/differences-between-java-8-map-and-flatmap/
 
+Diff Map and Flat map 
