@@ -72,3 +72,46 @@ f1.compose(f2).apply(Input)  - first f2 then f1
 
 Multiple functions can be chained together like :
 f1.andThen(f2).andThen(f3).andThen(f4).apply(Inputs);
+
+
+Consumer :  It will consume Item. Consumers never return anything (never supply), they just consume.
+
+Consumer Chaining :
+We can combine / chain multiple consumers together with andThen .
+
+There is only one ways to combine consumers:
+ c1.andThen(c2).apply(Input);  - first c1 then c2
+
+No compose() in consumer.
+
+Multiple consumers can be chained together like :
+c1.andThen(c2).andThen(c3).andThen(c4).apply(Inputs);
+
+Supplier :
+It will just supply required objects and will not take any input
+Its always going to supply never consume / take any input.
+
+EG : always supply me current date.
+No chaining as no input is given to this. Only it gives u output.
+
+
+Advantages:
+Write once, use anywhere.
+
+Code Reusability
+
+BiCinsumer Bisupplier :
+ What if we need 2 arguments for operation?
+
+Then we need Bi XYZ Functional Interfaces.
+
+
+There is no input in supplier so no 1 or 2 Input arguments needed. Hence no BiSupplier.
+
+Q) If we want to operate on 3 arguments then triPredicate? 
+
+There are no TriPredicate or TriFunction etc.
+
+No QuadPredicate No QuadFunction.
+
+Java 8 has inbuilt Functional interfaces that can take only 1 or 2 arguments no more.
