@@ -116,6 +116,7 @@ No QuadPredicate No QuadFunction.
 
 Java 8 has inbuilt Functional interfaces that can take only 1 or 2 arguments no more.
 
+*********************************************************************************************
 
 Stream :
 If we want to process bulk objects of collection then go for streams concept.
