@@ -159,3 +159,47 @@ If we want to fetch / filter objects from collection like eg : filter only even 
  If we want to perform some operation on each objects of the collection then create another mapped object with different value(after operation is performed ) for each object of that collection, then use map.
 
 In filter, because of filtering, number of objects in filtered list is less than original list While in Map  same number of objects are there in both new and original list created.
+
+
+Collect - 
+If we want to collect elements of stream after filtering or mapping and add them to the required collection then use collect method.
+
+Count - 
+If we want to count how many elements are there in collection that satisfy given condition then use collect method.
+
+sorted - 
+If we want to sort elements inside a stream use this sorted() method.
+We can sort based on default natural sorting order 
+If we want to sort using customized sorting order then use comparator.
+
+Comparator 
+If we want to sort using customized sorting order then use comparator.
+
+Min Max-
+Min(Comparator)  will return the minimum value based on the defined comparator
+Max(Comparator)  will return the maximum value based on the defined comparator
+
+Foreach
+forEach() is a method . 
+All methods that we saw till now returned something, like min max value, sorted collection, etc
+This method does not return anything. 
+Rather This method takes lambda expression as argument and apply that lambda expression to each element present in that stream.
+
+toArray- 
+
+of() - 
+Stream concept is not applicable just for the collections it’s also applicable for “ANY GROUP OF VALUE”.
+Even for arrays you can use stream.
+Stream . Of() this method can take any group of values and convert them to stream so that multiple stream operations can be applied to it.
+
+Parallel Stream
+
+Java Parallel Streams came into picture after java 1.8.
+
+Its meant to utilize multiple cores of processor.
+
+Till Now our java code has 1 stream of processing where it executes sequentially.
+
+But when you use parallel streams, we divide code into multiple streams that executes parallely , on separate cores and final result is the outcome of individual cores outcomes combined.
+
+Sequential VS Parallel Streams.
